@@ -1,0 +1,120 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+body{
+   background-color: #f1f1f1;
+   padding: 10px;
+}
+.header{
+   padding: 50px;
+   background-color: darkgray;
+   text-align: center;
+   color: white;
+}
+
+/* nav bölümü */
+.nav {
+   float: left;
+   background-color: black;
+   width: 100%;
+   /* overflow: hidden; */
+   position: sticky;
+   top: 0px;
+
+}
+
+.nav a {
+   display: inline-block;
+   padding: 12px 30px;
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   
+}
+
+.nav a:hover {
+   background-color: rgb(205, 156, 87);
+
+}
+.icon{
+   padding-right: 10px;
+   color: crimson;
+}
+
+.sol{
+   float: left;
+   width: 75%;
+}
+.sag{
+   float: left;
+   width: 25%;
+   padding-left: 20px;
+}
+.card{
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+
+}
+.card a{
+   text-decoration: none;
+  
+}
+.fa-brands{
+   font-size: 35px;
+}
+
+.fa-brands:hover{
+   opacity: 0.5;
+}
+
+.card h2{
+   margin-bottom: 5px;
+}
+.card p::nth-child(2){
+   text-indent: 30px;
+}
+.fakeimg{
+   background-color: darkgray;
+   padding: 30px;
+   width: 100%;
+   margin-bottom: 15px;
+   color: white;
+   text-align: center;
+}
+.fakeimg img{
+   width: 100%;
+}
+.row::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.footer{
+   background-color: darkgray;
+   text-align: center;
+   padding: 50px 0;
+   margin-top: 20px;
+   color: white;
+}
+@media (max-width:800px) {
+.nav a,.sag,.sol{
+   width:100%
+}}
+
+   .image img{
+      width: 100%;
+      height: 300px;
+     object-fit:cover;
+      
+   }
+   .icons{  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
